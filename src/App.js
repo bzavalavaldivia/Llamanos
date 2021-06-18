@@ -10,7 +10,6 @@ import Pizzas from './pages/Pizzas';
 import Desserts from './pages/Dessets';
 import Modal from './components/Modal';
 import { CustomerContext } from './contexts/CustomerContext';
-import Cart from './pages/Cart';
 
 function App() {
   const { isThereCustomer } = useContext(CustomerContext);
@@ -46,9 +45,6 @@ function App() {
         </Route>
         <Route path="/desserts">
           <Desserts />
-        </Route>
-        <Route path="/cart">
-          <Cart />
         </Route>
         <Route path="/">
           <Home />

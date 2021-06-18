@@ -13,7 +13,7 @@ export const products = [
     name: 'Americana',
     desc:
       'Si amas el Queso y el Jamón no puedes dejar de probar esta Pizza, una exquisita combinación de nuestro delicioso Queso Mozzarella y el mejor Jamón seleccionado.',
-    price: 'S/ 19.99',
+    price: '19.99',
     button: 'Añadir',
     category: 'pizza'
   },
@@ -24,7 +24,7 @@ export const products = [
     name: 'Pepperoni',
     desc:
       'Irresistible Pizza de Pepperoni, Queso 100% Mozzarella. La Pizza clásica por excelencia.',
-    price: 'S/ 16.99',
+    price: '16.99',
     button: 'Añadir',
     category: 'pizza'
   },
@@ -35,7 +35,7 @@ export const products = [
     name: 'Vegetariana',
     desc:
       '¡Todos tus vegetales favoritos juntos! Una deliciosa pizza cargada con Pimiento Verde y Cebolla Blanca recién cortada, Champiñones frescos, Aceitunas Negras, Tomates y 100% Queso Mozzarella.',
-    price: 'S/ 14.99',
+    price: '14.99',
     button: 'Añadir',
     category: 'pizza'
   },
@@ -46,7 +46,7 @@ export const products = [
     name: 'Donut Clásica',
     desc:
       'Donas glaseadas de chocolate belga cubiertas de glaseado con chispitas en la parte superior.',
-    price: 'S/ 9.99',
+    price: '9.99',
     button: 'Añadir',
     category: 'dessert'
   },
@@ -57,7 +57,7 @@ export const products = [
     name: 'Helado Caramelo',
     desc:
       'Helado de vainilla cubierto con glaseado de caramelo y chocolate cubierto con una barra de coco.',
-    price: 'S/ 12.99',
+    price: '12.99',
     button: 'Añadir',
     category: 'dessert'
   },
@@ -68,7 +68,7 @@ export const products = [
     name: 'Brownie Clásico',
     desc:
       'Porciones de brownie de chocolate blanco cubiertos con trozos de chocolate blanco y nueces de macadamia.',
-    price: 'S/ 9.99',
+    price: '9.99',
     button: 'Añadir',
     category: 'dessert'
   }

@@ -31,7 +31,7 @@ const Products = ({ heading, data }) => {
               <ProductInfo>
                 <ProductTitle>{product.name}</ProductTitle>
                 <ProductDesc>{product.desc}</ProductDesc>
-                <ProductPrice>{product.price}</ProductPrice>
+                <ProductPrice>S/ {product.price}</ProductPrice>
                 {
                   isInCart(product) &&
                   <ProductButton onClick={() => increase(product)}>{product.button} más</ProductButton>
